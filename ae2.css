@@ -1,8 +1,5 @@
 .flex-container {
 	display: flex;
-	background-color: #00ff00;
-	width: 1300px;
-	flex-flow: row wrap;
 	overflow: scroll;
 	align-content: flex-start;
 	border-style: solid;
@@ -37,4 +34,9 @@
 .button1:hover {
   background-color: #4CAF50;
   color: white;
+}
+#storageBox {
+	background-color: #00ff00;
+	width: 1300px;
+	flex-flow: row wrap;
 }
